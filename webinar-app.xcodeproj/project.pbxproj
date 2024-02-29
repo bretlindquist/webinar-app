@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCD73CF2B9143AB00B48E3D /* webinar_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD73CE2B9143AB00B48E3D /* webinar_appApp.swift */; };
+		CBCD73D12B9143AB00B48E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD73D02B9143AB00B48E3D /* ContentView.swift */; };
+		CBCD73D32B9143AD00B48E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCD73D22B9143AD00B48E3D /* Assets.xcassets */; };
+		CBCD73D62B9143AD00B48E3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCD73D52B9143AD00B48E3D /* Preview Assets.xcassets */; };
+		CBCD73E02B9143AD00B48E3D /* webinar_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD73DF2B9143AD00B48E3D /* webinar_appTests.swift */; };
+		CBCD73EA2B9143AD00B48E3D /* webinar_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD73E92B9143AD00B48E3D /* webinar_appUITests.swift */; };
+		CBCD73EC2B9143AD00B48E3D /* webinar_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD73EB2B9143AD00B48E3D /* webinar_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCD73DC2B9143AD00B48E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCD73C32B9143AB00B48E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCD73CA2B9143AB00B48E3D;
+			remoteInfo = "webinar-app";
+		};
+		CBCD73E62B9143AD00B48E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCD73C32B9143AB00B48E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCD73CA2B9143AB00B48E3D;
+			remoteInfo = "webinar-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCD73CB2B9143AB00B48E3D /* webinar-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webinar-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCD73CE2B9143AB00B48E3D /* webinar_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webinar_appApp.swift; sourceTree = "<group>"; };
+		CBCD73D02B9143AB00B48E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBCD73D22B9143AD00B48E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCD73D52B9143AD00B48E3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBCD73DB2B9143AD00B48E3D /* webinar-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webinar-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCD73DF2B9143AD00B48E3D /* webinar_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webinar_appTests.swift; sourceTree = "<group>"; };
+		CBCD73E52B9143AD00B48E3D /* webinar-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webinar-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCD73E92B9143AD00B48E3D /* webinar_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webinar_appUITests.swift; sourceTree = "<group>"; };
+		CBCD73EB2B9143AD00B48E3D /* webinar_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webinar_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCD73C82B9143AB00B48E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73D82B9143AD00B48E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73E22B9143AD00B48E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCD73C22B9143AB00B48E3D = {
+			isa = PBXGroup;
+			children = (
+				CBCD73CD2B9143AB00B48E3D /* webinar-app */,
+				CBCD73DE2B9143AD00B48E3D /* webinar-appTests */,
+				CBCD73E82B9143AD00B48E3D /* webinar-appUITests */,
+				CBCD73CC2B9143AB00B48E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCD73CC2B9143AB00B48E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD73CB2B9143AB00B48E3D /* webinar-app.app */,
+				CBCD73DB2B9143AD00B48E3D /* webinar-appTests.xctest */,
+				CBCD73E52B9143AD00B48E3D /* webinar-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCD73CD2B9143AB00B48E3D /* webinar-app */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD73CE2B9143AB00B48E3D /* webinar_appApp.swift */,
+				CBCD73D02B9143AB00B48E3D /* ContentView.swift */,
+				CBCD73D22B9143AD00B48E3D /* Assets.xcassets */,
+				CBCD73D42B9143AD00B48E3D /* Preview Content */,
+			);
+			path = "webinar-app";
+			sourceTree = "<group>";
+		};
+		CBCD73D42B9143AD00B48E3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD73D52B9143AD00B48E3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBCD73DE2B9143AD00B48E3D /* webinar-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD73DF2B9143AD00B48E3D /* webinar_appTests.swift */,
+			);
+			path = "webinar-appTests";
+			sourceTree = "<group>";
+		};
+		CBCD73E82B9143AD00B48E3D /* webinar-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCD73E92B9143AD00B48E3D /* webinar_appUITests.swift */,
+				CBCD73EB2B9143AD00B48E3D /* webinar_appUITestsLaunchTests.swift */,
+			);
+			path = "webinar-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCD73CA2B9143AB00B48E3D /* webinar-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCD73EF2B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-app" */;
+			buildPhases = (
+				CBCD73C72B9143AB00B48E3D /* Sources */,
+				CBCD73C82B9143AB00B48E3D /* Frameworks */,
+				CBCD73C92B9143AB00B48E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "webinar-app";
+			productName = "webinar-app";
+			productReference = CBCD73CB2B9143AB00B48E3D /* webinar-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCD73DA2B9143AD00B48E3D /* webinar-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCD73F22B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-appTests" */;
+			buildPhases = (
+				CBCD73D72B9143AD00B48E3D /* Sources */,
+				CBCD73D82B9143AD00B48E3D /* Frameworks */,
+				CBCD73D92B9143AD00B48E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCD73DD2B9143AD00B48E3D /* PBXTargetDependency */,
+			);
+			name = "webinar-appTests";
+			productName = "webinar-appTests";
+			productReference = CBCD73DB2B9143AD00B48E3D /* webinar-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBCD73E42B9143AD00B48E3D /* webinar-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCD73F52B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-appUITests" */;
+			buildPhases = (
+				CBCD73E12B9143AD00B48E3D /* Sources */,
+				CBCD73E22B9143AD00B48E3D /* Frameworks */,
+				CBCD73E32B9143AD00B48E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCD73E72B9143AD00B48E3D /* PBXTargetDependency */,
+			);
+			name = "webinar-appUITests";
+			productName = "webinar-appUITests";
+			productReference = CBCD73E52B9143AD00B48E3D /* webinar-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCD73C32B9143AB00B48E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CBCD73CA2B9143AB00B48E3D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CBCD73DA2B9143AD00B48E3D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CBCD73CA2B9143AB00B48E3D;
+					};
+					CBCD73E42B9143AD00B48E3D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CBCD73CA2B9143AB00B48E3D;
+					};
+				};
+			};
+			buildConfigurationList = CBCD73C62B9143AB00B48E3D /* Build configuration list for PBXProject "webinar-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCD73C22B9143AB00B48E3D;
+			productRefGroup = CBCD73CC2B9143AB00B48E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCD73CA2B9143AB00B48E3D /* webinar-app */,
+				CBCD73DA2B9143AD00B48E3D /* webinar-appTests */,
+				CBCD73E42B9143AD00B48E3D /* webinar-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCD73C92B9143AB00B48E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCD73D62B9143AD00B48E3D /* Preview Assets.xcassets in Resources */,
+				CBCD73D32B9143AD00B48E3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73D92B9143AD00B48E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73E32B9143AD00B48E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCD73C72B9143AB00B48E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCD73D12B9143AB00B48E3D /* ContentView.swift in Sources */,
+				CBCD73CF2B9143AB00B48E3D /* webinar_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73D72B9143AD00B48E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCD73E02B9143AD00B48E3D /* webinar_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCD73E12B9143AD00B48E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCD73EA2B9143AD00B48E3D /* webinar_appUITests.swift in Sources */,
+				CBCD73EC2B9143AD00B48E3D /* webinar_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCD73DD2B9143AD00B48E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCD73CA2B9143AB00B48E3D /* webinar-app */;
+			targetProxy = CBCD73DC2B9143AD00B48E3D /* PBXContainerItemProxy */;
+		};
+		CBCD73E72B9143AD00B48E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCD73CA2B9143AB00B48E3D /* webinar-app */;
+			targetProxy = CBCD73E62B9143AD00B48E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBCD73ED2B9143AD00B48E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBCD73EE2B9143AD00B48E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCD73F02B9143AD00B48E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"webinar-app/Preview Content\"";
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCD73F12B9143AD00B48E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"webinar-app/Preview Content\"";
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBCD73F32B9143AD00B48E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webinar-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/webinar-app";
+			};
+			name = Debug;
+		};
+		CBCD73F42B9143AD00B48E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webinar-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/webinar-app";
+			};
+			name = Release;
+		};
+		CBCD73F62B9143AD00B48E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "webinar-app";
+			};
+			name = Debug;
+		};
+		CBCD73F72B9143AD00B48E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGK9PQ8D35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bretco.webinar-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "webinar-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCD73C62B9143AB00B48E3D /* Build configuration list for PBXProject "webinar-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCD73ED2B9143AD00B48E3D /* Debug */,
+				CBCD73EE2B9143AD00B48E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCD73EF2B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCD73F02B9143AD00B48E3D /* Debug */,
+				CBCD73F12B9143AD00B48E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCD73F22B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCD73F32B9143AD00B48E3D /* Debug */,
+				CBCD73F42B9143AD00B48E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCD73F52B9143AD00B48E3D /* Build configuration list for PBXNativeTarget "webinar-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCD73F62B9143AD00B48E3D /* Debug */,
+				CBCD73F72B9143AD00B48E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCD73C32B9143AB00B48E3D /* Project object */;
+}
